@@ -1,0 +1,32 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(107, 106, 106, 0.309);
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 16px;
+    left:0;
+    top: 0;
+    height:100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    border-radius:5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.showModal{
+    opacity:1;
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.hideModal{
+    opacity:0;
+    visibility: hidden;
+    transform: scale(0.5);
+}

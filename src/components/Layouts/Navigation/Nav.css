@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(107, 38, 0);
+    height:50px;
+    padding:0px 10px;
+    color:#fff;
+
+    z-index:500;
+}
+.logo{
+    background-color: #fff;
+    padding:5px;
+    border-radius:5px;
+}
+.logo img{
+    width:60px;
+    height: 30px;
+}
+nav{
+    width:50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,30 @@
+*{
+    
+}
+.Summary{
+    background-color: #fff;
+    padding:16px;
+    border-radius:5px;
+
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.255);
+}
+.Summary p{
+    margin:15px 10px;
+}
+.Summary span{
+    width:10px;
+    min-width:100px;
+    overflow: hidden;
+}
+.Summary li{
+    list-style: none;
+    margin-left:20px;
+}
+.closeBtn{
+    height:30px;
+}
+.Summary h5{
+    font-size:15px;
+    font-weight: bolder;
+    margin:10px 5px;
+}
